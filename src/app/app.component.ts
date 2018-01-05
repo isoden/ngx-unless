@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ngx';
+
+  condition = true;
+
+  toggle() {
+    this.condition = !this.condition;
+  }
 }

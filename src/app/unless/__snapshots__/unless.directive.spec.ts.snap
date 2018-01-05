@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UnlessDirective should toggle node when condition changes 1`] = `
+<ng-component
+  condition="false"
+>
+  
+</ng-component>
+`;
+
+exports[`UnlessDirective should toggle node when condition changes 2`] = `
+<ng-component
+  condition={[Function Boolean]}
+>
+  <div>
+    hello3
+  </div>
+</ng-component>
+`;
+
+exports[`UnlessDirective should toggle node when condition changes 3`] = `
+<ng-component
+  condition="false"
+>
+  
+</ng-component>
+`;
+
+exports[`UnlessDirective should work in a template attribute 1`] = `
+<ng-component
+  condition={[Function Boolean]}
+>
+  
+</ng-component>
+`;
+
+exports[`UnlessDirective should work on a template element 1`] = `
+<ng-component
+  condition={[Function Boolean]}
+>
+  
+</ng-component>
+`;
